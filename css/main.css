@@ -5,13 +5,13 @@
 }
 
 header {
-  background-color: blue;
-  height: 80px;
+  background-color: white;
+ padding: 20px;
 }
 
 header span {
-  text-align: center;
-  line-height: 80px;
+  vertical-align: middle;
+  line-height: 70px;
   font-size: 2rem;
 }
 
@@ -19,23 +19,33 @@ header span {
 .conteiner img {
   vertical-align: middle;
   margin: 0 auto;
+  height: 70px;
+}
+
+main{
+  background-color: rgb(206, 206, 197);
+  padding: 50px 0 20px;
 }
 
 .box {
-  background-color: rgb(206, 206, 197);
-  height:1000px;
-  padding: 0;
+  width: 60%;
+  margin: 0 auto;
 }
 
-.box-alternativo{
+.box-top{
   background-color:white; 
-  border-radius: 2px;
-  height: 100px;
-  padding: 50px 120px;
-  border-bottom: 2px solid rgb(206, 206, 197)k;
+  border-radius: 3px;
+  padding: 20px 120px;
+  border-bottom: 2px solid rgb(206, 206, 197);
 }
 
-.box-alternativo .button {
+.box-bottom{
+  background-color:white;
+  border-radius: 3px; 
+  
+}
+
+.box-top .button {
   height: 25px;
   width: auto;
   padding: 5px 8px;
@@ -54,6 +64,20 @@ header span {
 }
 
 section h3 {
-  padding: 30px;
-  line-height: 5px;
+  font-size: 2 em;
 }
+
+main ul {
+  list-style: none;
+  padding: 5px;
+}
+
+main ul li{
+  padding: 5px;
+}
+
+.green ::before{
+  content: "\2713";
+  color: green;
+}
+
