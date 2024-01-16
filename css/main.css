@@ -68,16 +68,23 @@ section h3 {
 }
 
 main ul {
-  list-style: none;
+  list-style: none; levare i puntini della lista non ordinata
   padding: 5px;
 }
 
-main ul li{
+main ul li {
   padding: 5px;
 }
 
-.green ::before{
-  content: "\2713";
-  color: green;
+.green ::after {
+  content: "Editorial";
 }
 
+.green {
+  color: rgb(14, 237, 14);
+  border-style: solid black 1px;
+}
+
+.red {
+  color: rgb(237, 14, 14);
+}
