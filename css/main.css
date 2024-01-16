@@ -90,7 +90,47 @@ main ul li {
 .etichetta-editorial ::after {
   content: "Editorial";
   background-color: rgb(68, 68, 231);
-  border-radius: 5px;
-  padding: 3px;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.etichetta-Q1Goals ::after{
+  content: "Q1 Goals";
+  background-color:blueviolet;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.etichetta-Recruiting ::after{
+  content: "Recruiting";
+  background-color:darkcyan ;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.etichetta-Mobile ::after{
+  content: "Mobile";
+  background-color:rgb(232, 165, 32) ;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.etichetta-Website ::after{
+  content: "Website";
+  background-color:palevioletred;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: white;
+}
+
+.etichetta-Sales ::after{
+  content: "Sales";
+  background-color:rgb(102, 217, 20);
+  border-radius: 10px;
+  padding: 3px 8px;
   color: white;
 }
