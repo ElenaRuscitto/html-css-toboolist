@@ -76,15 +76,21 @@ main ul li {
   padding: 5px;
 }
 
-.green ::after {
-  content: "Editorial";
-}
-
 .green {
   color: rgb(14, 237, 14);
-  border-style: solid black 1px;
+  border: 1px solid rgb(14, 237, 14);
+  border-radius: 100%;
 }
 
 .red {
   color: rgb(237, 14, 14);
+  border: 1px solid rgb(237, 14, 14);
+  border-radius: 100%;
+}
+.etichetta-editorial ::after {
+  content: "Editorial";
+  background-color: rgb(68, 68, 231);
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
 }
