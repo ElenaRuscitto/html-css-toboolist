@@ -15,7 +15,6 @@ header span {
   font-size: 2rem;
 }
 
-/* non funziona allineamento immagine al testo */
 .conteiner img {
   vertical-align: middle;
   margin: 0 auto;
@@ -87,48 +86,43 @@ main ul li {
   border: 1px solid rgb(237, 14, 14);
   border-radius: 100%;
 }
-.etichetta-editorial ::after {
-  content: "Editorial";
+
+.editorial {
   background-color: rgb(68, 68, 231);
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
 }
 
-.etichetta-Q1Goals ::after{
-  content: "Q1 Goals";
-  background-color:blueviolet;
+.q1Goals {
+  background-color:rgb(174, 96, 247);
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
 }
 
-.etichetta-Recruiting ::after{
-  content: "Recruiting";
+.recruiting {
   background-color:darkcyan ;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
 }
 
-.etichetta-Mobile ::after{
-  content: "Mobile";
+.mobile {
   background-color:rgb(232, 165, 32) ;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
 }
 
-.etichetta-Website ::after{
-  content: "Website";
+.website {
   background-color:palevioletred;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
 }
 
-.etichetta-Sales ::after{
-  content: "Sales";
+.sales {
   background-color:rgb(102, 217, 20);
   border-radius: 10px;
   padding: 3px 8px;
