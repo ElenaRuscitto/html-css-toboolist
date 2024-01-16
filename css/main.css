@@ -27,27 +27,33 @@ header span {
   padding: 0;
 }
 
-main .box-alternativo{
+.box-alternativo{
   background-color:white; 
   border-radius: 2px;
   height: 100px;
   padding: 50px 120px;
+  border-bottom: 2px solid rgb(206, 206, 197)k;
 }
 
 .box-alternativo .button {
   height: 25px;
   width: auto;
-  padding: 5px;
+  padding: 5px 8px;
   border-radius: 5px;
 }
 
-#task {
+#addtask {
   background-color: rgb(55, 55, 240);
   color: white;
   border: rgb(55, 55, 240) ;
 }
 
-#section {
+#addsection {
   background-color: white;
   color: gray;
+}
+
+section h3 {
+  padding: 30px;
+  line-height: 5px;
 }
