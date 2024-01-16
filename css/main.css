@@ -9,9 +9,10 @@ header {
   height: 80px;
 }
 
-header h1 {
+header span {
   text-align: center;
-  line-height: 0px;
+  line-height: 80px;
+  font-size: 2rem;
 }
 
 /* non funziona allineamento immagine al testo */
@@ -28,6 +29,7 @@ header h1 {
 
 main .box-alternativo{
   background-color:white; 
+  border-radius: 2px;
   height: 100px;
   padding: 50px 120px;
 }
