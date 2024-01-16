@@ -76,15 +76,16 @@ main ul li {
 }
 
 .green {
-  color: rgb(14, 237, 14);
-  border: 1px solid rgb(14, 237, 14);
-  border-radius: 100%;
+  color: rgb(21, 188, 21);
+  border: 1px solid rgb(21, 188, 21);
+  border-radius: 50%;
+
 }
 
 .red {
   color: rgb(237, 14, 14);
   border: 1px solid rgb(237, 14, 14);
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .editorial {
@@ -92,6 +93,8 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
 
 .q1Goals {
@@ -99,6 +102,8 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
 
 .recruiting {
@@ -106,6 +111,8 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
 
 .mobile {
@@ -113,6 +120,8 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
 
 .website {
@@ -120,6 +129,8 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
 
 .sales {
@@ -127,4 +138,6 @@ main ul li {
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
+  font-size: 12px;
+  margin: 5px;
 }
