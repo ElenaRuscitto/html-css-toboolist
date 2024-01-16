@@ -4,3 +4,23 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: blue;
+  height: 80px;
+}
+
+header h1 {
+  text-align: center;
+  line-height: 0px;
+}
+
+/* non funziona allineamento immagine al testo */
+.conteiner img {
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: rgb(206, 206, 197);
+  height:1000px;
+}
