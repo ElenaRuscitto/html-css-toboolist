@@ -6,7 +6,12 @@
 
 header {
   background-color: white;
- padding: 20px;
+  padding: 10px 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header span {
@@ -15,8 +20,9 @@ header span {
   font-size: 2rem;
 }
 
+/* x allineare imm a testo - "vertical-align: middle;" metterlo sia ad imm che al testo (se testo modificato di grandezza) altrimenti non funziona */
 .conteiner img {
-  vertical-align: middle;
+  vertical-align: middle; 
   margin: 0 auto;
   height: 70px;
 }
@@ -38,113 +44,129 @@ main{
   border-bottom: 2px solid rgb(206, 206, 197);
 }
 
+section h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2 em;
+}
+
+/* buttons */
 .box-bottom{
   background-color:white;
   border-radius: 3px; 
   
 }
 
-.box-top .button {
-  height: 25px;
-  width: auto;
+.button {
+  font-size: .75rem;
+  border: none;
   padding: 5px 8px;
   border-radius: 5px;
+  cursor: pointer; /* "cursor: pointer;""  per far si che si che si possa premere il bottone */
 }
 
-#addtask {
-  background-color: rgb(55, 55, 240);
+
+.button.addtask {
+  background-color: #47ADF1;
   color: white;
-  border: rgb(55, 55, 240) ;
+  border: 1px solid #47ADF1;
 }
 
-#addsection {
-  background-color: white;
-  color: gray;
+
+.button.addtask:hover { /* ":hover" serve quando vado spora con il cursore sul bottone, cambia colore */
+  background-color: #47ADF1;
 }
 
-section h3 {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2 em;
+
+.button.addsection {
+  background-color: #fff;
+  color: #C4CACF;
+  border: 1px solid #C4CACF;
+}
+
+.button.ddsection:hover {
+  background-color: fff;
+}
+
+/* MAIN */
+.box-bottom h3::before {
+  content: '\25BE';
+  padding-right: 5px;
 }
 
 main ul {
-  list-style: none; levare i puntini della lista non ordinata
-  padding: 5px;
+  list-style: none; 
+  /* list-style: none; levare i puntini della lista non ordinata */
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 main ul li {
   padding: 5px;
 }
 
-.green {
-  color: rgb(21, 188, 21);
-  border: 1px solid rgb(21, 188, 21);
-  border-radius: 50%;
+/* circles */
 
+.circle::before{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17px;
+  font-size: .8rem;
+}
+.circle.green::before {
+  content: '\2713';
+  color: green;
+  border: 1px solid green;
 }
 
-.red {
-  color: rgb(237, 14, 14);
-  border: 1px solid rgb(237, 14, 14);
-  border-radius: 50%;
+.circle.red::before{
+  content: '\2717';
+  color: red;
+  border: 1px solid red;
+}
+
+/* badge */
+.badge{
+  color: white;
+  font-size: .7rem;
+  padding: 5px 8px;
+  border-radius: 10px;
 }
 
 .editorial {
   font-family: 'Ubuntu', sans-serif;
-  background-color: rgb(68, 68, 231);
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
+  background-color: #47ADF1;
   margin: 5px;
 }
 
 .q1Goals {
   font-family: 'Ubuntu', sans-serif;
   background-color:rgb(174, 96, 247);
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
   margin: 5px;
 }
 
 .recruiting {
   font-family: 'Ubuntu', sans-serif;
   background-color:darkcyan ;
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
   margin: 5px;
 }
 
 .mobile {
   font-family: 'Ubuntu', sans-serif;
   background-color:rgb(232, 165, 32) ;
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
   margin: 5px;
 }
 
 .website {
   font-family: 'Ubuntu', sans-serif;
   background-color:palevioletred;
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
   margin: 5px;
 }
 
 .sales {
   font-family: 'Ubuntu', sans-serif;
   background-color:rgb(102, 217, 20);
-  border-radius: 10px;
-  padding: 3px 8px;
-  color: white;
-  font-size: 10px;
   margin: 5px;
 }
