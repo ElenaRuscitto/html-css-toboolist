@@ -63,6 +63,7 @@ main{
 }
 
 section h3 {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2 em;
 }
 
@@ -89,55 +90,61 @@ main ul li {
 }
 
 .editorial {
+  font-family: 'Ubuntu', sans-serif;
   background-color: rgb(68, 68, 231);
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
 
 .q1Goals {
+  font-family: 'Ubuntu', sans-serif;
   background-color:rgb(174, 96, 247);
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
 
 .recruiting {
+  font-family: 'Ubuntu', sans-serif;
   background-color:darkcyan ;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
 
 .mobile {
+  font-family: 'Ubuntu', sans-serif;
   background-color:rgb(232, 165, 32) ;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
 
 .website {
+  font-family: 'Ubuntu', sans-serif;
   background-color:palevioletred;
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
 
 .sales {
+  font-family: 'Ubuntu', sans-serif;
   background-color:rgb(102, 217, 20);
   border-radius: 10px;
   padding: 3px 8px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin: 5px;
 }
